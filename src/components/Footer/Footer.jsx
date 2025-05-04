@@ -4,7 +4,7 @@ import "./Footer.css";
 function Footer() {
   return (
     <div className="footer">
-      <p>Copyright @ 2025, CryptoBH - All Rights Reserved.</p>
+      <p>Copyright @ 2025, CryptoBerry🍓 - All Rights Reserved.</p>
     </div>
   );
 }

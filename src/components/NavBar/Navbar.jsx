@@ -32,7 +32,7 @@ const Navbar = () => {
   return (
     <div className="navbar">
       <Link to={"/"}>
-        <img src={logo} alt="logo" className="logo" />
+        <div className="logo">CryptoBerry🍓</div>
       </Link>
       <ul>
         <Link to={"/"}>
