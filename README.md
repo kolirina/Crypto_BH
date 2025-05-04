@@ -1,12 +1,47 @@
-# React + Vite
+# CryptoBerry🍓
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+CryptoBerry is a comprehensive application designed for tracking and researching Bitcoin and other cryptocurrencies. With CryptoBerry, you can effortlessly find information about various coins, view their price changes, market capitalization, and access detailed charts.
 
-Currently, two official plugins are available:
+## Features
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+- **Search Functionality**: Easily search for different cryptocurrencies.
+- **Display Market Information**: Obtain current price, market cap, 24-hour high and low values for each coin.
+- **Historical Data**: View a yearly change chart for selected cryptocurrencies.
+- **Currency Support**: All information is available in three currencies: USD, EUR, and RUB.
+- **Crypto Market Ranking**: Check the market rank of your favorite cryptocurrencies.
 
-## Expanding the ESLint configuration
+## Technologies Used
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+- **Frontend**: React
+- **Data Source**: CoinGecko API
+- **Charting Library**: Google Charts
+
+## Installation
+
+To get started with CryptoBerry, follow these steps:
+
+1. Clone the project repository to your computer using Git:
+
+```
+$ git clone https://github.com/kolirina/Crypto_BH.git
+```
+
+2. Navigate to the project directory:
+
+```
+$ cd Crypto_BH
+```
+
+3. Install project dependencies (Node.js must be installed):
+
+```
+$ npm install
+```
+
+4. Start the project in development mode:
+
+```
+$ npm run dev
+```
+
+This way you will have the repository cloned to your local machine 💻, all necessary dependencies installed and project up and running 🏃‍♂️🏃‍♂️🏃.
