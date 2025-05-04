@@ -8,7 +8,7 @@
 }
 
 .navbar .logo {
-  width: max(12vw, 120px);
+  font-size: 26px;
 }
 
 .navbar ul {
@@ -56,4 +56,28 @@
 
 .navbar button img {
   width: 13px;
+}
+
+@media (max-width: 900px) {
+  .navbar {
+    padding: 20px 8%;
+  }
+  .navbar button {
+    gap: 8px;
+    padding: 8px 18px;
+    font-size: 14px;
+  }
+}
+
+@media (max-width: 840px) {
+  .navbar {
+    padding: 20px 5%;
+  }
+  .navbar ul {
+    display: none;
+  }
+
+  .navbar button img {
+    width: 12px;
+  }
 }
