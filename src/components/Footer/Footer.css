@@ -1,0 +1,8 @@
+.footer {
+  max-width: 80%;
+  margin: auto;
+  padding: 15px 0;
+  text-align: center;
+  border-top: 1px solid #989898;
+  font-size: 13px;
+}
