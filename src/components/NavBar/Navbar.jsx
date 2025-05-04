@@ -37,9 +37,15 @@ const Navbar = () => {
         <Link to={"/"}>
           <li>Home</li>
         </Link>
-        <li>Features</li>
-        <li>Pricing</li>
-        <li>Blog</li>
+        <Link to={"/inDevelopment"}>
+          <li>Features</li>
+        </Link>
+        <Link to={"/inDevelopment"}>
+          <li>Pricing</li>
+        </Link>
+        <Link to={"/inDevelopment"}>
+          <li>Blog</li>
+        </Link>
       </ul>
       <div className="nav-right">
         <select onChange={currencyHandler}>

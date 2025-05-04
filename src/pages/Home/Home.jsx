@@ -30,7 +30,7 @@ function Home() {
   return (
     <div className="home">
       <div className="hero">
-        <h1>The Ultimate Crypto Marketplace</h1>
+        <h1>The Best Crypto Marketplace</h1>
         <p>
           Welcome to the ultimate cryptocurrency marketplace. Sign up for free
           and find out more about cryptos.
